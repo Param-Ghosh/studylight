@@ -1,11 +1,11 @@
 {
   "expo": {
-    "name": "collage_app",
-    "slug": "collage_app",
+    "name": "StudyLight",
+    "slug": "studylight",
     "version": "1.0.0",
     "orientation": "portrait",
     "icon": "./assets/images/icon.png",
-    "scheme": "collageapp",
+    "scheme": "studylight",
     "userInterfaceStyle": "automatic",
     "newArchEnabled": true,
     "ios": {
@@ -17,7 +17,7 @@
         "backgroundColor": "#ffffff"
       },
       "edgeToEdgeEnabled": true,
-      "package": "com.param_brota_ghost.collage_app"
+      "package": "com.param_brota_ghost.studylight"
     },
     "web": {
       "bundler": "metro",
@@ -43,8 +43,9 @@
     "extra": {
       "router": {},
       "eas": {
-        "projectId": "f01a9645-b24b-4f18-a372-d6e3f5e5cbcd"
+        "projectId": "51bdb5e3-3b7b-4af7-b9a8-42fbf18472ba"
       }
-    }
+    },
+    "owner": "param_brota_ghost"
   }
 }
