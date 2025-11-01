@@ -1,50 +1,63 @@
-# Welcome to your Expo app 👋
+<h1 align="center">✨ Spotlight – Real‑Time Social Media App 🚀</h1>
 
-This is an [Expo](https://expo.dev) project created with [`create-expo-app`](https://www.npmjs.com/package/create-expo-app).
+Welcome to **Spotlight**!  
+In this one‑stop tutorial you’ll build a production‑ready **real‑time social network** that runs on **iOS, Android, and the web**—all with **React Native + Expo**, **Convex**, and **Clerk**.
 
-## Get started
+---
 
-1. Install dependencies
+## 🎯 What You'll Build
 
-   ```bash
-   npm install
-   ```
+This isn’t a UI demo—Spotlight is a **full‑stack, real‑time** social platform.
 
-2. Start the app
+✅ Works on **physical devices & simulators** (Android / iOS)  
+✅ Everything updates **instantly** across users (likes, follows, comments)  
+✅ No native Swift / Kotlin required—just JavaScript & TypeScript  
+✅ From ZERO → to HERO in **one video**
 
-   ```bash
-   npx expo start
-   ```
+---
 
-In the output, you'll find options to open the app in a
+## 🧑‍🍳 App Features Overview
 
-- [development build](https://docs.expo.dev/develop/development-builds/introduction/)
-- [Android emulator](https://docs.expo.dev/workflow/android-studio-emulator/)
-- [iOS simulator](https://docs.expo.dev/workflow/ios-simulator/)
-- [Expo Go](https://expo.dev/go), a limited sandbox for trying out app development with Expo
+- 🔐 **Google Auth** via Clerk (seamless one‑tap login)
+- 🏠 **Home Feed** with stories + posts, pull‑to‑refresh & logout
+- ❤️ **Like / Comment** with live updates for everyone
+- 📑 **Bookmarks Screen** to save and review posts
+- ➕ **Create Post** — select image, add caption, share instantly
+- 🔔 **Notifications** — like, follow & comment events with deep links
+- 👤 **Profile** — stats, posts, animated edit‑profile modal
+- 🔄 **Follow / Unfollow** other users
+- 🗑️ **Delete Own Posts** with confirmation alert
+- 🎨 **Custom fonts & splash / app icon** included
 
-You can start developing by editing the files inside the **app** directory. This project uses [file-based routing](https://docs.expo.dev/router/introduction).
+---
 
-## Get a fresh project
+## 🧠 What You’ll Learn
 
-When you're ready, run:
+- 🏗️ Structure a cross‑platform app with **Expo Router**
+- ⚡ Wire up a **real‑time backend** using **Convex functions & database**
+- 🔑 Implement secure auth & session management with **Clerk**
+- 📱 Master core RN components: `View`, `Text`, `Image`, `FlatList`, `ScrollView`, `Pressable`, `KeyboardAvoidingView`, `Modal`, icons…
+- 🚀 Optimize performance (virtualization, lazy loading, memoization)
+- 🖼️ Handle device image selection & uploads
+- 🧭 Combine **stack & tab navigators** safely with `SafeAreaView`
+- 🎁 Ship to the web with Expo’s single‑codebase magic
+- 💬 Talk interview‑worthy topics: **webhooks**, real‑time syncing, optimistic UI
+
+---
+
+## 📁 .env Setup
+
+Create a `.env` file in the project root:
 
 ```bash
-npm run reset-project
+EXPO_PUBLIC_CLERK_PUBLISHABLE_KEY=<your_publishable_key>
+CONVEX_DEPLOYMENT=<your_deployment_name>
+EXPO_PUBLIC_CONVEX_URL=<your_convex_url>
 ```
 
-This command will move the starter code to the **app-example** directory and create a blank **app** directory where you can start developing.
+## 📱 Run the App
 
-## Learn more
-
-To learn more about developing your project with Expo, look at the following resources:
-
-- [Expo documentation](https://docs.expo.dev/): Learn fundamentals, or go into advanced topics with our [guides](https://docs.expo.dev/guides).
-- [Learn Expo tutorial](https://docs.expo.dev/tutorial/introduction/): Follow a step-by-step tutorial where you'll create a project that runs on Android, iOS, and the web.
-
-## Join the community
-
-Join our community of developers creating universal apps.
-
-- [Expo on GitHub](https://github.com/expo/expo): View our open source platform and contribute.
-- [Discord community](https://chat.expo.dev): Chat with Expo users and ask questions.
+```bash
+npm install
+npx expo start
+```
